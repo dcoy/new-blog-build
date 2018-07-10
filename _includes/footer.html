@@ -1,0 +1,30 @@
+<div class="explore">
+    <!-- <div class="explore__devider">*****</div>
+    <div class="explore__label">Explore the different categories</div>
+    <ul class="categories">
+        {% for category in site.data.categories %}
+            <li class="categories__item"><a href="{{ '/categories/' | append: category.slug | prepend: site.baseurl }}">{{ category.name }}</a></li>
+        {% endfor %}
+		<li class="categories__item"><a href="{{ '/' | prepend: site.baseurl }}">All</a></li>
+    </ul> -->
+
+    <ul class="social-links">
+        {% if site.author.github %}
+            <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
+                <i class="fa fa-github"></i>
+            </a>
+        {% endif %}
+
+        {% if site.author.twitter %}
+            <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+        {% endif %}
+        
+        {% if site.author.gitlab %}
+            <a href="https://gitlab.com/{{ site.author.gitlab }}" class="social-links__entry" target="_blank">
+                <i class="fa fa-gitlab"></i>
+            </a>
+        {% endif %}
+    </ul>
+</div>
