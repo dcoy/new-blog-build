@@ -1,6 +1,6 @@
 ## Dcoy
 
-This is my blog about software engineering, devops and automation. Theme is Hyde, but I plan to change it up in the future.
+This is my blog about software engineering, devops and automation. Theme is very much a work in progress...
 
 ### Run
 
