@@ -64,8 +64,8 @@ strong {
 
 /* =Header */
 .wrapper {
-    max-width: 800px;
-    margin: 100px auto;
+    max-width: 60rem;
+    margin: 55px auto;
 }
 
 .header {
@@ -103,6 +103,7 @@ strong {
 
 .menu__entry a {
     font-weight: 400;
+    color: $nice-blue;
 }
 
 .social-links {
@@ -115,6 +116,30 @@ strong {
 .social-links__entry {
     display: inline-block;
     margin-left: 10px;
+}
+
+.fa {
+    color: purple;
+}
+
+.fa:hover {
+    transition: 0.8s ease-out;
+}
+
+.fa-heart:hover {
+    color: red;
+}
+
+.fa-twitter:hover {
+    color: $twit-blue;
+}
+
+.fa-github:hover {
+    color: $github;
+}
+
+.fa-gitlab:hover {
+    color: $gitlab;
 }
 
 /* =Titles */
