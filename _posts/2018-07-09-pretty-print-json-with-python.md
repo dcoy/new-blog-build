@@ -6,8 +6,6 @@ date: 2018-07-09 23:05:11
 categories: [python, json]
 ---
 
-# Pretty Printing JSON with Python
-
 Python can be used to pretty-print JSON files locally, by invoking the `json.tool` module. It can turn "ugly" JSON:
 
 {% highlight shell %}

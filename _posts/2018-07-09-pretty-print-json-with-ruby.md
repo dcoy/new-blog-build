@@ -6,9 +6,7 @@ date: 2018-07-09 23:05:35
 categories: [ruby, json]
 ---
 
-# Pretty Printing JSON with Ruby
-
-Ruby can be used to pretty-print JSON files, by invoking the `JSON` module from the Ruby standard library. It can turn "ugly" JSON
+Ruby can be used to pretty-print JSON files, by invoking the `JSON` module from the Ruby standard library. It can turn "ugly" JSON:
 
 {% highlight shell %}
 
